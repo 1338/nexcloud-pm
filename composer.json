@@ -1,0 +1,15 @@
+{
+    "name": "Project Management",
+    "description": "Nextcloud PM with Gantt charts",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Max van der Sluis"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

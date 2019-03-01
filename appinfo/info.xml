@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>projectmanagement</id>
+    <name>Project Management</name>
+    <summary>Nextcloud PM with Gantt charts</summary>
+    <description><![CDATA[# Nexcloud Project Management
+Ever wanted to consolidate your systems to nextcloud?
+I wanted that, including a decent way to do project management and displaying progress overview in a Gantt chart.
+This app does just that.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="maxvandersluis@yahoo.com" homepage="https://github.com/1338/nexcloud-pm/">Max van der Sluis</author>
+    <namespace>ProjectManagement</namespace>
+    <category>office</category>
+    <category>organization</category>
+    <category>social</category>
+    <bugs>https://github.com/1338/nexcloud-pm/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="16"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Project Management</name>
+            <route>projectmanagement.page.index</route>
+        </navigation>
+    </navigations>
+</info>
